@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated index and reports
+storage/
+reports/*
+!reports/evaluation_report.md
+
+# Testing
+.pytest_cache/
+.coverage
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
